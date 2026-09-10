@@ -10,3 +10,6 @@ mvn clean package
 ```
 
 The Jenkins pipeline expects globally configured tools named `Maven3` and `JDK17`. On a Windows Jenkins agent, the committed `Jenkinsfile` uses `bat` steps.
+
+## Build Status
+Verified locally with `mvn test` (all 6 tests passing) and integrated with Jenkins CI/CD.
